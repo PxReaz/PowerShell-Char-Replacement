@@ -2,7 +2,7 @@ $dir = Read-Host -Prompt 'Enter the dir path'
 while(!(Test-Path -Path $dir))
 {
 	Write-Host 'The directory does not exist'
-    $dir = Read-Host -Prompt 'Enter the dir path'
+	$dir = Read-Host -Prompt 'Enter the dir path'
 }
 $toReplace = Read-Host -Prompt 'Enter the char to replace'
 $replacement = Read-Host -Prompt 'Enter the replacement'
